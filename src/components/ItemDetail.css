@@ -1,0 +1,35 @@
+.item-detail {
+  display: flex;
+  flex-direction: column; /* pone todo en columna, uno debajo del otro */
+  align-items: center; /* centra horizontalmente */
+  text-align: center;  /* centra texto */
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.item-detail-img {
+  width: 250px;       /* todas las imágenes con mismo ancho */
+  height: 250px;      /* todas con mismo alto */
+  object-fit: cover;  /* recorta y centra */
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+.item-detail-info {
+  flex: 1;
+}
+
+.add-to-cart {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #555;
+}
