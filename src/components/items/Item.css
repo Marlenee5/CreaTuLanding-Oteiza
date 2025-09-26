@@ -1,0 +1,25 @@
+/* Item.css */
+
+.item-card h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    color: #222;
+    transition: color 0.3s ease;
+}
+
+.item-card h3:hover {
+    color: #ff9800;
+    /* un toquecito al pasar el mouse */
+}
+
+.item-card p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.item-card p strong {
+    color: #000;
+    font-size: 1.1rem;
+}

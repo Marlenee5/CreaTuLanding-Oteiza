@@ -3,7 +3,6 @@
   flex-direction: column; /* pone todo en columna, uno debajo del otro */
   align-items: center; /* centra horizontalmente */
   text-align: center;  /* centra texto */
-  gap: 2rem;
   padding: 2rem;
 }
 
@@ -18,6 +17,7 @@
 
 .item-detail-info {
   flex: 1;
+  font-size: 18px;
 }
 
 .add-to-cart {

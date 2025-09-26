@@ -1,0 +1,35 @@
+.item-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.item-count-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-count button {
+  padding: 7px 13px;   /* Aumenta tamaño */
+  font-size: 18px;      /* Aumenta la letra */
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.item-count button:hover {
+  background-color: #0056b3;
+}
+
+.item-count span {
+  font-size: 20px;
+  font-weight: bold;
+  min-width: 30px;   /* Para que no se achique con números de 1 dígito */
+  text-align: center;
+  padding: 1rem;
+}

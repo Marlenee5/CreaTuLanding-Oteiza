@@ -1,0 +1,26 @@
+.cart-widget {
+  position: relative;
+  font-size: 2rem;           /* icono más grande */
+  cursor: pointer;
+  color: var(--main-orange);  /* naranja consistente con la página */
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+.cart-widget:hover {
+  transform: scale(1.2);     /* efecto “pop” al pasar el mouse */
+}
+
+/* Badge para la cantidad */
+.cart-count {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: var(--main-orange);
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 2px 6px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}

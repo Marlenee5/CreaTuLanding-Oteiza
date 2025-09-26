@@ -1,0 +1,32 @@
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;        /* 🔑 permite que bajen a otra fila si no entran */
+  justify-content: center; /* centra horizontalmente */
+  gap: 15px;               /* espacio entre tarjetas */
+}
+
+.product-card {
+  flex: 0 1 250px;  /* ancho base 250px, pero adaptable */
+  max-width: 100%;
+}
+
+/* 📱 Pantallas pequeñas */
+@media (max-width: 768px) {
+  .product-card {
+    flex: 0 1 45%; /* dos columnas */
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card {
+    flex: 0 1 90%; /* una columna */
+  }
+}
+
+.category-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem 0;
+  color: #333;
+}

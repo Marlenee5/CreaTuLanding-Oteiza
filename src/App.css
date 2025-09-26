@@ -46,43 +46,6 @@ h2 {
   color: #222;
 }
 
-/* Contenedor de productos */
-.items-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1.5rem;
-  padding: 2rem;
-}
-
-/* Card de producto */
-.item-card {
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
-  padding: 1rem;
-  text-align: center;
-  width: 220px;
-  transition: transform 0.2s ease;
-}
-
-.item-card:hover {
-  transform: scale(1.05);
-}
-
-.item-card img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
-
-.item-card h3 {
-  margin: 0.5rem 0;
-  font-size: 1.2rem;
-}
-
-.item-card p {
-  margin: 0.5rem 0;
-  color: #555;
+:root {
+  --main-orange: #fdb343;
 }
