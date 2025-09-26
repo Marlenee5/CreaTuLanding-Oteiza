@@ -1,7 +1,7 @@
 # 🛍️ Dev Store  
 
 ¡Bienvenid@ a **Dev Store**! 🎉  
-Un e-commerce creado con **React** y **Firebase** como parte de mi curso de programación.  
+Un e-commerce creado con **React** y **Firebase**.
 
 ## 🚀 Funcionalidades principales  
 
@@ -30,19 +30,3 @@ Un e-commerce creado con **React** y **Firebase** como parte de mi curso de prog
 - 📑 **Detalle del producto**: info completa y botón "Agregar al carrito".  
 - 🛒 **Carrito**: listado de productos seleccionados.  
 - 📋 **Checkout**: formulario para generar la orden.  
-
-## 📂 Estructura de carpetas  
-src
-├── components
-│ ├── common
-│ │ └── NavBar / Footer / CartWidget
-│ ├── items
-│ │ └── Item / ItemList / ItemDetail / containers
-│ └── cart
-│ └── Cart / CheckoutForm
-├── context
-│ └── cartContext.jsx
-├── utils
-│ └── firebase.js / uploadProducts.js
-├── App.jsx / App.css
-└── index.js
